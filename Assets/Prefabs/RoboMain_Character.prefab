@@ -495,6 +495,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6103487917470820962}
+  - component: {fileID: 2084157618613250820}
+  - component: {fileID: 2084157618613250821}
   m_Layer: 0
   m_Name: RoboMain_Character
   m_TagString: Untagged
@@ -522,3 +524,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &2084157618613250820
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6915313789827870936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.7863202
+  m_Height: 6.111595
+  m_Direction: 1
+  m_Center: {x: 0, y: 3.0447156, z: 0.020318266}
+--- !u!114 &2084157618613250821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6915313789827870936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1128faccd6ba0624e98393a59fbae433, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
